@@ -80,11 +80,14 @@ iframe{
     position: relative;
     width: 70%; /* Adjust based on preference */
     margin: auto;
+    overflow: hide;
   }
   
   .carousel-images img {
     width: 100%; /* This makes each image fill the div, which we've resized */
-    display: none; /* Hide all images initially */
+    height: 500px;
+    display: block; /* Hide all images initially */
+    object-fit: cover;
   }
   
   .carousel {
@@ -116,3 +119,13 @@ iframe{
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
+
+  footer {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #303030; /* Dark background for contrast */
+    color: #fff; /* White text color for readability */
+    text-align: center; /* Centers the text within the footer */
+    font-family: Arial, Helvetica, sans-serif; /* Maintains consistency with the rest of the page's typography */
+    border-top: 1px solid #444; /* Adds a subtle border on top for visual separation */
+}

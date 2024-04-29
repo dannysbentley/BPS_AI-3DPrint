@@ -43,7 +43,6 @@
       <img src="img/15.png" alt="Image 15">
       <img src="img/16.png" alt="Image 16">
       <img src="img/17.png" alt="Image 17">
-      <img src="img/18.png" alt="Image 18">
       <img src="img/19.png" alt="Image 19">
       <img src="img/20.png" alt="Image 20">
       <img src="img/21.png" alt="Image 21">
@@ -52,7 +51,6 @@
       <img src="img/24.png" alt="Image 24">
       <img src="img/25.png" alt="Image 25">
       <img src="img/26.png" alt="Image 26">
-      <img src="img/27.png" alt="Image 27">
       <img src="img/28.png" alt="Image 28">
       <img src="img/29.png" alt="Image 29">
       <img src="img/30.png" alt="Image 30">
@@ -89,6 +87,7 @@
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
 
+<iframe src="https://www.spatial.io/embed/Planet-Forestia-662b6e8ffb07d4cc70b314b5" width="1280px" height="720px" allow="camera; fullscreen; autoplay; display-capture; microphone; clipboard-write"></iframe>
 
 
 <div class="instructions">
@@ -96,16 +95,27 @@
     <p>The following day was all about bringing another aspect of their planet to life. The students used TinkerCAD and Luma AI to design and create 3D models of sustainable planter pots. This exercise was not just about design; it was a practical application of sustainable practices, teaching the young creators the importance of eco-friendly solutions in real-world scenarios.</p>
 </div>
 
-<div id="luma-lab-viewer">
-    <canvas></canvas>
-</div>
+<iframe src="https://lumalabs.ai/embed/f8dd08e3-0afe-4777-b56d-6ad561d622e1?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="374" height="500" frameborder="0" title="luma embed" style="border: none;"></iframe>
+<br>
+<iframe src="https://lumalabs.ai/embed/21caa8ea-e243-43ad-9074-b2ef5d928609?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="374" height="500" frameborder="0" title="luma embed" style="border: none;"></iframe>
+<br>
+<iframe src="https://lumalabs.ai/embed/b689c9dd-994e-47fc-bc7f-d247750541b4?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="375" height="500" frameborder="0" title="luma embed" style="border: none;"></iframe>
+<br>
+
+<iframe src="https://lumalabs.ai/embed/20289e97-f737-4d16-9adf-6edf7dde46c5?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="375" height="500" frameborder="0" title="luma embed" style="border: none;"></iframe>
+<br>
+
+<iframe src="https://lumalabs.ai/embed/dbaa3139-8b59-46de-9d2a-7971a8c19ac0?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="375" height="500" frameborder="0" title="luma embed" style="border: none;"></iframe>
 
 <div class="instructions">
     <h2>Celebrating Our Young Innovators</h2>
     <p>The boys from Bangkok Patana School proved themselves to be incredibly smart and capable. Their ability to integrate technology with environmental consciousness was nothing short of inspiring. This project did not just teach them about technology; it empowered them with the knowledge that they have the power to make a difference in the world.</p>
 </div>
+<br>
 
-<iframe src="https://www.spatial.io/embed/dwp-and-BPS-VR-662b6e8ffb07d4cc70b314b5" width="1280px" height="720px" allow="camera; fullscreen; autoplay; display-capture; microphone; clipboard-write"></iframe>
+<footer>
+    <p>© 2024 dwp, all rights reserved</p>
+</footer>
 
 <script type="importmap">
 {
@@ -129,7 +139,7 @@
 
     let scene = new Scene();
     let camera = new PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
-    camera.position.set(0, 0, 50);  // Set a neutral position with enough distance
+    camera.position.set(0, 0, 1);  // Set a neutral position with enough distance
 
     let controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
