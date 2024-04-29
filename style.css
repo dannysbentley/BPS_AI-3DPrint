@@ -120,6 +120,22 @@ iframe{
     background-color: rgba(0,0,0,0.8);
   }
 
+  @media (max-width: 600px) {
+    .carousel-images img {
+        height: 30vh; /* Adjust height based on your needs */
+    }
+
+    .carousel {
+        width: 90%; /* Adjust the width to provide padding on small screens */
+    }
+
+    /* Further adjustments to other elements for a more responsive design */
+    .instructions {
+        max-width: 90%;
+        padding: 10px;
+    }
+}
+
   footer {
     width: 100%;
     padding: 10px 0;
